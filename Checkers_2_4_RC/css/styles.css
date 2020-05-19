@@ -1,0 +1,211 @@
+div.tiles img 
+{
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+h1 
+{
+    text-shadow: 1.5px 1.5px red
+}
+
+div.tiles div{
+    height: 38.88px;
+    width: 38.88px;
+    border-radius: 50%;
+}
+
+div#tile00
+{
+    position: absolute;
+    top: 45;
+    left: 181;
+}
+div#tile02
+{
+    position: absolute;
+    top: 45;
+    left: 279;
+}
+div#tile04
+{
+    position: absolute;
+    top: 45;
+    left: 377;
+}
+div#tile06
+{
+    position: absolute;
+    top: 45px;
+    left: 475;
+}
+div#tile11
+{
+    position: absolute;
+    top: 94;
+    left: 230;
+}
+div#tile13
+{
+    position: absolute;
+    top: 94;
+    left: 328;
+}
+div#tile15
+{
+    position: absolute;
+    top: 94;
+    left: 426;
+}
+div#tile17
+{
+    position: absolute;
+    top: 94;
+    left: 524;
+}
+div#tile20
+{
+    position: absolute;
+    top: 143;
+    left: 181;
+}
+div#tile22
+{
+    position: absolute;
+    top: 143;
+    left: 279;
+}
+div#tile24
+{
+    position: absolute;
+    top: 143;
+    left: 377;
+}
+div#tile26
+{
+    position: absolute;
+    top: 143;
+    left: 475;
+}
+div#tile31
+{
+    position: absolute;
+    top: 192;
+    left: 230;
+}
+div#tile33
+{
+    position: absolute;
+    top: 192;
+    left: 328;
+}
+div#tile35
+{
+    position: absolute;
+    top: 192;
+    left: 426;
+}
+div#tile37
+{
+    position: absolute;
+    top: 192;
+    left: 524;
+}
+div#tile40
+{
+    position: absolute;
+    top: 241;
+    left: 181;
+}
+div#tile42
+{
+    position: absolute;
+    top: 241;
+    left: 279;
+}
+div#tile44
+{
+    position: absolute;
+    top: 241;
+    left: 377;
+}
+div#tile46
+{
+    position: absolute;
+    top: 241;
+    left: 475;
+}
+div#tile51
+{
+    position: absolute;
+    top: 290;
+    left: 230;
+}
+div#tile53
+{
+    position: absolute;
+    top: 290;
+    left: 328;
+}
+div#tile55
+{
+    position: absolute;
+    top: 290;
+    left: 426;
+}
+div#tile57
+{
+    position: absolute;
+    top: 290;
+    left: 524;
+}
+div#tile60
+{
+    position: absolute;
+    top: 339;
+    left: 181;
+}
+div#tile62
+{
+    position: absolute;
+    top: 339;
+    left: 279;
+}
+div#tile64
+{
+    position: absolute;
+    top: 339;
+    left: 377;
+}
+div#tile66
+{
+    position: absolute;
+    top: 339;
+    left: 475;
+}
+div#tile71
+{
+    position: absolute;
+    top: 387;
+    left: 230;
+}
+div#tile73
+{
+    position: absolute;
+    top: 387;
+    left: 328;
+}
+div#tile75
+{
+    position: absolute;
+    top: 387;
+    left: 426;
+}
+div#tile77
+{
+    position: absolute;
+    top: 387;
+    left: 524;
+}

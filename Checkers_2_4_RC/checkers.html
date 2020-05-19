@@ -1,0 +1,63 @@
+<html>
+
+    <head>
+        <title>&#9922 &#9923 Checkers &#9921 &#9920</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script src="js/engine.js"></script>
+    </head>    
+
+    <body>
+ 
+        <div id="board"> 
+            <img src="img/board.jpg">
+        </div>
+        
+        <div class = "tiles" >
+            <div id = "tile00" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile02" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile04" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile06" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile11" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile13" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile15" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile17" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile20" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile22" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile24" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile26" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile31" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile33" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile35" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile37" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile40" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile42" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile44" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile46" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile51" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile53" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile55" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile57" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile60" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile62" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile64" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile66" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile71" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile73" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile75" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+            <div id = "tile77" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+        </div>
+
+        <h1 id="status"></h1>
+
+        <button onclick="startTheGame()">Start The Game</button>
+        <button id = "resign" onclick="playerResign()" >Resign</button>
+        <button id = "draw" onclick="askADraw(1)" >Ask A Draw</button>
+        <button id = "accept" onclick="askADraw(2)" >Accept</button>
+        <button id = "reject" onclick="askADraw(3)" >Reject</button>
+
+        <script> 
+        clearButtons(4)
+        </script>
+    </body>
+
+</html> 
